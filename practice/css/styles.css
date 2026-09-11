@@ -1,0 +1,22 @@
+
+
+
+#backpack {
+    color:darkcyan;
+    background-color: darksalmon;
+}
+#summer_plans{
+    color:darkolivegreen;
+    background-color: beige;
+    
+}
+.important{
+    font-weight: 900;
+    font-size:x-large;
+}
+
+
+
+/* color changes the text color
+* selects everything
+p selects values in paragraphs */
