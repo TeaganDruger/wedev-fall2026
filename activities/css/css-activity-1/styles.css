@@ -1,0 +1,42 @@
+.class {
+    background-color: darksalmon;
+    border: 5px groove purple;
+    border-radius: 5px;
+    
+    padding: 20px; /*space between word and border*/
+    margin: 10px; /* space between end of border and next element*/
+}
+#ID{
+    color:blue;
+    font-family: Verdana, "DejaVu Sans", sans-serif;  /* Use quotes when the font family has spaces. there are three fonts here becauseit is a fall back system. if a browser does not support one font it will go to the next one. the last font is usually a very generic family which is always supported */
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+#ID2{
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+    background-color:chartreuse;
+}
+
+.size24{
+    font-size:24px;
+}
+
+#orange{
+    font-size: 42px;
+    border: 4px dotted orange;
+}
+
+#squirrel{
+    height: 100px;
+    width: 200px;
+}
+
+body{
+    background-image: url(https://media.thecrimson.com/photos/2021/10/08/082303_1351934.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
