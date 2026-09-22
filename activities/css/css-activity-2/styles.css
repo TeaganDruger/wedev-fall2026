@@ -1,0 +1,19 @@
+.button1, .button2{
+    font-size: 28px;
+    font-family: Heveltica, "Times New Roman", sans-serif;
+    border: 3px, black, groove;
+}
+
+.button1{
+    color:white;
+    background-color: black;
+}
+
+.button2{
+    color: black;
+    background-color: yellow;
+}
+
+#ask_name{
+    font-size: 28px;
+}
