@@ -1,0 +1,40 @@
+h3,.highlight{
+    font-weight: bold;
+}
+
+h2.highlight {
+    background-color: cadetblue;
+}
+
+.card paragraph{
+    font-size: large;
+}
+
+.card>p{
+    border: 4px green groove;
+}
+
+.places .highlight{
+    color: darkslateblue;
+}
+
+h2+p{
+    color: olive;
+}
+
+h2~p{
+    font-style: italic;
+}
+
+.card>ul{
+    border: 4px darkseagreen groove;
+}
+
+h2,h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
