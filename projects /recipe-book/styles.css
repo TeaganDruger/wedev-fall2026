@@ -1,0 +1,44 @@
+*{
+    background-color: oldlace;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1{
+    font-weight: bold;
+    color: darkolivegreen;
+}
+
+#recipe-names li{
+    padding-bottom: 0.5em;
+    font-size: 14px;
+}
+
+img{
+    border: 4px darkslategray solid;
+    border-radius: 2%;
+    width: 310px;
+}
+
+.ingredients{
+    display: inline-block;
+    padding-left: 1em;
+    padding-right: 1em;
+    border: 4px darkslategrey solid;
+    border-radius: 4%;
+    background-color: lightsteelblue;
+}
+
+.ingredients li{
+    background-color: lightsteelblue;
+    margin-bottom: .3em;
+}
+.ingredients ul{
+    background-color: lightsteelblue;
+}
+
+.ingredients b{
+    background-color: lightsteelblue;
+}
+.ingredients h3{
+    background-color: lightsteelblue
+}
