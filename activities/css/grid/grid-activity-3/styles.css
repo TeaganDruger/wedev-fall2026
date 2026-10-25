@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+.container {
+    text-align: center;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 1fr 10fr 1fr;
+    gap: 4px;
+}
+
+.container div {
+    padding: 15px;
+    font-size: 32px;
+    font-family: Helvetica;
+    font-weight: bold;
+    color: white;
+}
+
+.header {
+    background-color: #393f4d;
+    grid-column: 1 / 3;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.nav ul,
+.menu ul {
+    font-size: 16px;
+    /* makes the bullets disappear */
+    list-style-type: none;
+}
+
+.sidebar {
+    background-color: #C50208;
+    grid-column: 1 / 2;
+    grid-row: 2 / 4;
+    display: grid;
+    gap: 50px;
+}
+
+.sidebar .photo {
+    background-color: white;
+    color: black;
+    font-size: 12px;
+    font-weight: normal;
+    border-radius: 10px;
+    display: grid;
+    align-items: center;
+}
+
+
+.sidebar .side-content {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    font-weight: normal;
+    display: grid;
+    align-items: center;
+}
+
+.nav {
+    background-color: #C50208;
+    display: grid;
+    align-items: center;
+}
+
+.nav ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.nav ul li {
+    /* makes text uppercase */
+    text-transform: uppercase;
+}
+
+.article {
+    background-color: #bccbde;
+    grid-column: 2/3;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.article p {
+    font-size: 18px;
+    font-family: sans-serif;
+    color: white;
+    text-align: left;
+}
+
+.article .card {
+    background-color: #FFFFFF;
+    color: black;
+    text-align: center;
+}
+
+.card p {
+    color: black;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.card .title {
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer {
+    background-color: #393f4d;
+    grid-column: 1/3;
+    display: grid;
+    align-items: center;
+}
+
+.footer p {
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.logo{
+    display: grid;
+    justify-content: start;
+}
+
+.menu{
+    display: grid;
+    align-items: center;
+}
+
+.menu ul{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+}
