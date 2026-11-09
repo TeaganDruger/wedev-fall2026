@@ -272,7 +272,15 @@ see if the number of letters in your name is more than 5, if it is alert "More t
 if neither of these is true then alert "Less than 5 letters".
 
 let myName = 'Teagan';
+let nameLength = myName.length;
 
+if (nameLength > 5){
+    alert("More than 5");
+} else if(nameLength == 5){
+    alert("Exactly 5 letters");
+} else {
+    alert("Less than 5 letters");
+    }
 
 
 */
