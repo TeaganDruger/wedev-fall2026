@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     border-radius: 3px;
+    background-color: cadetblue;
 }
 
 /* sets up basic fewatures for all pages as well as general grid layout */
@@ -14,7 +15,7 @@
     display: grid;
     grid-template-columns: 1fr 7fr;
     grid-template-rows: .5fr 1.5fr 12fr .5fr;
-    gap: 4px;
+    /* gap: 4px; */
     /* box-sizing: border-box; */
 }
 
@@ -58,17 +59,19 @@
     grid-column: 1/3;
     display: grid;
     grid-template-columns: auto auto auto;
-    background-color: cadetblue;
+    background-color: rgb(40, 73, 74);
 }
 
 /* sets special font size for the text in footer */
 .footer div{
     font-size: 14px;
+    background-color: rgb(40, 73, 74);
+    color: azure;
 }
 
 /* arrangles title */
 div.title{
-    background-color: aquamarine;
+    background-color: rgb(169, 219, 213);
     display: grid;
     align-items: center;
     font-size:xx-large;
@@ -76,23 +79,33 @@ div.title{
     font-weight: bolder;
 }
 
+#MEMBERS-article, #GALLERY-article, #ROV-article{
+    background-color: rgb(169, 219, 213);
+}
+
 /* sets up subtitles for the members page */
 #MEMBERS-article .subtitle{
     font-size: x-large;
     font-weight: bolder;
+    background-color: rgb(169, 219, 213);
 }
 
 /* sets up subtitles for the gallery page */
 #GALLERY-article .subtitle{
     display: grid;
     justify-items: start;
+    background-color: rgb(169, 219, 213);
+}
+
+#GALLERY-article img{
+    background-color: rgb(169, 219, 213);
 }
 
 /* adds layout specifc to ROV page */
 #ROV-article{
     display:grid;
     grid-template-rows: auto auto;
-    background-color: cadetblue;
+    /* background-color: cadetblue; */
     height: 100%;       /* sets height of ".article" div */
     overflow-y: auto;    /* Adds vertical scrollbar only when content overflows */
 }
@@ -101,7 +114,7 @@ div.title{
 #MEMBERS-article{
     display: grid;
     grid-template-rows: auto auto;
-    background-color: cadetblue;
+    /* background-color: cadetblue; */
     height: 100%;       /* sets height of ".article" div */
     overflow-y: auto;    /* Adds vertical scrollbar only when content overflows */
 }
@@ -110,7 +123,7 @@ div.title{
 #GALLERY-article{
     display: grid;
     grid-template-rows: auto auto;
-    background-color: cadetblue;
+    /* background-color: cadetblue; */
     height: 100%;       /* sets height of ".article" div */
     overflow-y: auto;    /* Adds vertical scrollbar only when content overflows */
 }
@@ -121,6 +134,11 @@ div.title{
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr 1fr;
     width: 100%;
+    background-color: rgb(169, 219, 213);
+}
+
+#leadership div{
+    background-color: rgb(169, 219, 213);
 }
 
 /* sets up faculty div so that everythign fits horizontally */
@@ -129,6 +147,11 @@ div.title{
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr 1fr;
     width: 100%;
+    background-color: rgb(169, 219, 213);
+}
+
+#faculty div{
+    background-color: rgb(169, 219, 213);
 }
 
 /* general setup for divs within the gallery */
@@ -136,6 +159,7 @@ div.title{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     width: 100%;
+    background-color: rgb(169, 219, 213);
 }
 
 /* sets up images to only take up as much horizontal space as needed */
@@ -151,6 +175,11 @@ div.title{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(4, 1fr);
+    background-color: rgb(169, 219, 213);
+}
+
+#members div{
+    background-color: rgb(169, 219, 213);
 }
 
 /* makes it so images onyl take up what space the have */
@@ -160,6 +189,9 @@ div.title{
     display: block;
 }
 
+#big-image{
+    background-color: rgb(169, 219, 213);
+}
 /* sets up image on ROV page to only take up the space that it has */
 #big-image img{
     box-sizing: border-box;
@@ -176,4 +208,5 @@ div.title{
     justify-items: start;
     word-spacing: .05em;
     line-height: 1.4;
+    background-color: rgb(169, 219, 213);
 }
