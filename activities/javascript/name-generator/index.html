@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Name Generator</title>
+  <script src="script.js"></script>
+</head>
+<body>
+    <h1>Name Generator</h1>
+
+    <label for="month">Choose the month you were born:</label>
+    <select name="month" id="month">
+        <option value="January">January</option>
+        <option value="February">Febuary</option>
+        <option value="March">March</option>
+        <option value="April">April</option>
+        <option value="May">May</option>
+        <option value="June">June</option>
+        <option value="July">July</option>
+        <option value="August">August</option>
+        <option value="September">September</option>
+        <option value="October">October</option>
+        <option value="November">November</option>
+        <option value="December">December</option>
+    </select>
+
+    <label for="age">Enter your age: </label>
+    <input type="number" id="age" />
+
+    <label for="color">Enter your favorite color: </label>
+    <input type="text" id="color" />
+
+    <button onclick="createName()">Generate Name</button>
+
+    <p id="result"></p>
+
+</body>
+</html>
