@@ -27,20 +27,31 @@ function checkLogin() {
     if (enteredUsername === correctUsername && enteredPassword === correctPassword) {
         // Case 1: The username is right AND the password is right.
         message.textContent = "Success! You are logged in.";
+        message.style.color = "green";
+        message.style.backgroundColor = "lightgreen";
+        message.style.fontWeight = "bold";
+        message.style.padding = "4px";
     }
     else if (enteredUsername !== correctUsername && enteredPassword !== correctPassword) {
         // Case 2: The username is wrong AND the password is wrong.
         message.textContent = "Both your username and password are incorrect.";
+        message.style.color = "red";
+        message.style.fontSize = "100px";
+        message.style.backgroundColor = "#FFCCCB";
+        message.style.fontWeight = "bold";
+        message.style.padding = "4px";
     }
     else if (enteredUsername !== correctUsername) {
         // Case 3: Only the username is wrong.
         // (We know the password must be right, because Case 2 already
         //  caught the situation where BOTH were wrong.)
         message.textContent = "Your username is incorrect.";
+        message.style.color = "red";
     }
     else {
         // Case 4: Everything else. If we got this far, the username
         // must be right, so the only thing left is a wrong password.
         message.textContent = "Your password is incorrect.";
+        message.style.color = "red";
     }
 }
